@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Website</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/product.css">
+
+  <link rel="stylesheet" href="/css/style1.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+
+    $(document).ready(function(){
+      $('#contnt').load("slider.html");
+    });
+
+    $(document).ready(function(){
+      $('#cards').load("products.html");
+    });
+    
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="head head-line">
+      <div class="container cont1">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <img src="/images/logo.jpg" alt="logo" height="100px" width="120px" class="img-logo">
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small headert">
+            <li>
+              <a href="#" class="nav-link">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#home" />
+                </svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#table" />
+                  </svg>
+                </svg>
+                <i class="fas fa-tachometer-alt Dashboard"></i>
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#speedometer2" />
+                </svg>
+                Orders
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#grid" />
+                </svg>
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                  <use xlink:href="#people-circle" />
+                </svg>
+                Customers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="px-3 py-2 border-bottom mb-3">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search" style="width: 600px;">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-light text-dark me-2 butsign">Login</button>
+          <button type="button" class="btn btn-primary signn">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="top-content">
+  <div class="d-flex flex-column flex-shrink-0 p-3 bg-light navbar-menu " style="width: 280px;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32">
+        <use xlink:href="" />
+      </svg>
+    </a>
+    <hr>
+    <div class="navbarmenu" data-aos="fade-right" >
+      <ul class="nav nav-pills">
+        <li>
+          <b class="clinic" >Clinic Medicine Centre</b>
+        </li>
+        <li>
+          <b class="slogan text-shadow-1">Supporting your journey towards better health</b>
+        </li>
+        <li class="nav-item">
+          <button class="shop-btn btn-delivery-daek buttons" >
+            <a class="bg-transparent text-light text-decoration-none" href="#products">
+            Get Started
+            </a>
+          </button>
+        </li>
+        <div id="text-container">
+      </div>
+      </ul>
+    </div>
+    <hr>
+
+    <div class="dropdown">
+
+      <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+        <li><a class="dropdown-item" href="#">New products...</a></li>
+        <li><a class="dropdown-item" href="#">Settings</a></li>
+        <li><a class="dropdown-item" href="#">Profile</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Sign out</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="advert">
+    <img src="images/banner.webp" alt="banner" class="banner-image">
+  </div>
+  </div>
+  <main>
+    <br><br><br>
+    <div class="position-relative p-20 p-md-5 m-md-3 text-center bg-light main-cont head-content" data-aos="zoom-out-right">
+      <div class="col-md-9 p-lg-9 mx-auto my-20">
+        <h1 class="display-4 fw-normal text-shadow-1">The Fastest Delivery for Your Medicine</h1>
+        <h4>Just order your medicine & you get it delivered to you </h4><br>
+        <a class="buttons btn-delivery btn-outline-secondary bg-danger text-dark" href="#products">Get Started!</a>
+
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+    <div class="health-content" data-aos="zoom-out-right">
+      <h1 class="text-center text-shadow-1" ><b>Health Solutions, One Pharmacy.</b></h1>
+      <h4 class="text-center">When Life Gives You Lemons, Add a Little Medicine and a Lot of Laughter</h4>
+    </div>
+    <div id="contnt"></div>
+    <div id="cards"></div>
+  </main>
+</body>
+
+</html>

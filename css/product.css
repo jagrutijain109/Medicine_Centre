@@ -1,0 +1,81 @@
+.container {
+  max-width: 960px;
+  overflow: clip;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.check:hover{
+  transform: scale(1.1);
+}
+.boxs:hover{
+  transform: scale(0.7);
+}
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: 0%;
+  width: 100px;
+  height: 240px;
+  
+  background-image: linear-gradient(white,rgb(21, 13, 107),rgb(1, 0, 6));
+  border-radius: 700px;
+  transform: rotate(30deg);
+  box-shadow: rgb(13, 13, 13) 5px ;
+}
+
+.product-device::before {
+  position: absolute;
+  top: 40%;
+  right: 2px;
+  bottom: 48%;
+  left: 2px;
+  content:"Medicine";
+  color: white;
+  background-color: rgba(2, 1, 21, 0.1);
+  border-radius: 5px;
+  box-shadow: black 5px;
+  
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: pink;
+  box-shadow: rgb(19, 19, 19) 5px;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
